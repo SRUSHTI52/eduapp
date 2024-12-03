@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.internship.Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.example.internship.Fragment.CalenderFragment"
+        android:label="fragment_calender"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.example.internship.Fragment.ProgressFragment"
+        android:label="fragment_progress"
+        tools:layout="@layout/fragment_progress" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.internship.Fragment.TipsFragment"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips" />
+
+</navigation>

@@ -1,0 +1,19 @@
+{
+  "activities": [
+    {
+      "date": "2024-12-03",
+      "activity": "Color Sorting Game",
+      "description": "Sort items by color using household objects."
+    },
+    {
+      "date": "2024-12-05",
+      "activity": "Story Time",
+      "description": "Read 'The Little Red Hen' together."
+    },
+    {
+      "date": "2024-12-07",
+      "activity": "Shape Matching",
+      "description": "Match shapes with their outlines."
+    }
+  ]
+}
